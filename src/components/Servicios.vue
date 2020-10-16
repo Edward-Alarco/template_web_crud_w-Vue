@@ -40,6 +40,7 @@ h3{
 .v-sheet.v-card:not(.v-sheet--outlined){
     height: 355px;
     transform: scale(1);
+    transition: all .25s ease-in-out;
 }
 .v-sheet.v-card:not(.v-sheet--outlined):hover{
     transform: scale(0.975);

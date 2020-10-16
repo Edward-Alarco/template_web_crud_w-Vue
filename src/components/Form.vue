@@ -1,4 +1,5 @@
 <template>
+    <div class="container-form">
     <v-container>
         <v-row class="row-custom">
             <v-col cols="6" class="col-custom2">
@@ -9,11 +10,13 @@
                 <v-form>
                     <v-text-field dark v-model="nombre" label="Name"></v-text-field>
                     <v-text-field dark v-model="email" label="Email"></v-text-field>
-                    <v-textarea dark label="Message" v-model="message"></v-textarea>
+                    <v-textarea no-resize dark label="Message" v-model="message"></v-textarea>
+                    <v-btn block color="#4E4E4E" dark tile>{{btnTxt}}</v-btn>
                 </v-form>
             </v-col>
         </v-row>
     </v-container>
+    </div>
 </template>
 
 <script>
@@ -21,6 +24,7 @@ export default {
     name: 'Form',
     data(){
         return{
+            btnTxt: 'Enviar',
             title: 'Contact',
             nombre: '',
             email: '',
@@ -33,9 +37,13 @@ export default {
 <style>
 .row-custom{
     padding: 100px;
-    background-color: rgba(105, 105, 105, 0.5);
 }
-.col-custom{
+div.container-form{
+    background-color: rgba(105, 105, 105, 0.5);
+    width: 100%;
+    margin: 80px 0 0 0;
+}
+div.col-custom{
     padding: 40px;
     background-color: #696969;
 }
@@ -44,7 +52,7 @@ export default {
     font-size: 30px;
     font-weight: 200;
 }
-.col-custom2{
+div.col-custom2{
     padding: 0;
 }
 </style>
