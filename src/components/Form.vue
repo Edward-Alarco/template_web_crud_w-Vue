@@ -44,7 +44,7 @@ div.container-form{
     margin: 80px 0 0 0;
 }
 div.col-custom{
-    padding: 40px;
+    padding: 25px 50px;
     background-color: #696969;
 }
 .col-custom h4{
@@ -54,5 +54,11 @@ div.col-custom{
 }
 div.col-custom2{
     padding: 0;
+}
+div.col-custom2 .v-image{
+    vertical-align: top;
+}
+.theme--light.v-image{
+    vertical-align: top;
 }
 </style>

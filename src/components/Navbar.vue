@@ -5,8 +5,11 @@
                 <h3>{{title}}</h3>
             </v-toolbar-title>
             <v-spacer></v-spacer>
-            <v-icon class="mr-5">{{fa}}facebook</v-icon>
-            <v-icon class="mr-3">{{fa}}instagram</v-icon>
+            <div class="mr-2">
+                <v-btn icon target="_blank" href="https://www.facebook.com/edward.david.alarco"><v-icon>{{fa}}facebook</v-icon></v-btn>
+                <v-btn icon target="_blank" href="https://www.instagram.com/edward_alarco/"><v-icon>{{fa}}instagram</v-icon></v-btn>
+                <v-btn icon target="_blank" href="https://github.com/Edward-Alarco"><v-icon>{{fa}}github</v-icon></v-btn>
+            </div>
         </v-toolbar>
     </div>
 </template>

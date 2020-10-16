@@ -3,6 +3,7 @@
     <Banner/>
     <Servicios/>
     <Form/>
+    <Footer/>
   </div>
 </template>
 
@@ -11,12 +12,13 @@
 import Banner from '@/components/Banner.vue'
 import Servicios from '@/components/Servicios.vue'
 import Form from '@/components/Form.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   
   name: 'Home',
   components: {
-    Banner, Servicios, Form
+    Banner, Servicios, Form, Footer
   }
 }
 </script>

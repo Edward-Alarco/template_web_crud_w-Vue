@@ -4,7 +4,7 @@
             <div class="text-center">
                 <h1 class="font-weight-medium text-uppercase">{{title}}</h1>
                 <h3 class="font-weight-regular my-1" v-text="subtitle"></h3>
-                <v-btn depressed class="mt-5" to="/about">{{btntext}}</v-btn>
+                <v-btn depressed class="mt-5" to="/crud">{{btntext}}</v-btn>
             </div>
         </div>
     </div>
